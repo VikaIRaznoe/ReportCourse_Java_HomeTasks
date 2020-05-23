@@ -68,5 +68,23 @@ public class Test2 {
         System.out.println("В восьмиричной системе d5: " + d5);
         long d6 = 0B111010110111100110100010101;
         System.out.println("В двоичной системе d6: " + d6);
+
+        float h = 3.14f;
+        float h2 = 5.25F;
+        System.out.println("Переменные типа float: " + h + " " + h2);
+
+        double i = 34.56;
+        double i2 = 87.3;
+        System.out.println("Переменные типа double: " + i + " " + i2);
+
+        boolean j = true;
+        boolean j2 = false;
+        System.out.println("Переменные типа boolean: " + j + " " + j2);
+
+        char k = 'v';
+        char k2 = '7';
+        char k3 = 457;
+        char k4 = '\u5678';
+        System.out.println("Переменные типа char: " + k + " " + k2 + " " + k3 + " " + k4);
     }
 }
